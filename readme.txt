@@ -11,6 +11,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Make it easy for Botswana WordPress sites to add the COVID-19 banner as to show support to government in
 its effort to flatten the curve.
+<img src="https://github.com/rascyber/bw-coronavirus-banner/blob/master/assets/images/covid-1000.jpg"</img>
 
 == Description ==
 
