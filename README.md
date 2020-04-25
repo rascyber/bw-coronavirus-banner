@@ -4,7 +4,7 @@ You can install the plugin directly to your site. [View plugin](https://wordpres
 
 ## Banner preview
 
-![Banner preview](https://github.com/robindevitt/sa-coronavirus-banner/blob/master/assets/images/covid-1000.jpg)
+![Banner preview](https://github.com/rascyber/bw-coronavirus-banner/blob/master/assets/images/covid-1000.jpg)
 
 All .bw domain names are required to show initiative to have a way to direct people to a legitimate source of information regarding COVID-19.
 
