@@ -4,7 +4,7 @@
  *
  */
 
-namespace SA\Covid19\BannerDisplay;
+namespace BW\Covid19\BannerDisplay;
 
 add_filter( 'body_class', function( $classes ) {
 
@@ -30,7 +30,7 @@ function banner(){
     return;
   }
 
-  \wp_enqueue_style( 'sacovid-19-page-banner', SA_COVID19_URL . 'assets/css/covid-19.min.css', null, SA_COVID19_VERSION, false );
+  \wp_enqueue_style( 'bwcovid-19-page-banner', BW_COVID19_URL . 'assets/css/covid-19.min.css', null, BW_COVID19_VERSION, false );
 
   ob_start();
 

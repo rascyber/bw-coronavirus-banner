@@ -4,9 +4,9 @@
  *
  */
 
-namespace SA\Covid19\SettingsPage;
+namespace BW\Covid19\SettingsPage;
 
-include_once 'sa-covid-19-options.php';
+include_once 'bw-covid-19-options.php';
 
 /**
  * Create top level menu item
@@ -15,12 +15,12 @@ function options() {
 
   // add top level menu page
   add_menu_page(
-    'SA Coronoa Banner',      // page title
-    'SA COVID-19',            // menu title
+    'BW Corona Banner',      // page title
+    'BW COVID-19',            // menu title
     'manage_options',         // capability
-    'sa-covid-19',            // menu slug
+    'bw-covid-19',            // menu slug
     'options_page_content',   // page content
-    plugin_dir_url( __FILE__ ) . ( '../../assets/images/sa-flag.png' ),
+    plugin_dir_url( __FILE__ ) . ( '../../assets/images/bw_flag.png' ),
     2                         // position
   );
 

@@ -4,7 +4,7 @@
  *
  */
 
-namespace SA\Covid19;
+namespace BW\Covid19;
 
 require_once 'admin/script.php';
 require_once 'admin/settings.php';
@@ -13,19 +13,19 @@ require_once 'banner.php';
 /**
  * Initialises the app.
  */
-function sa_covid_19() {
+function bw_covid_19() {
 
-	add_action( 'admin_enqueue_scripts', 'SA\Covid19\Script\add_color_picker' );
+	add_action( 'admin_enqueue_scripts', 'BW\Covid19\Script\add_color_picker' );
 
-	add_action( 'wp_enqueue_scripts', 	 'SA\Covid19\Script\banner_height' );
+	add_action( 'wp_enqueue_scripts', 	 'BW\Covid19\Script\banner_height' );
 
-	add_action( 'admin_init', 					 'SA\Covid19\SettingsPage\settings' );
+	add_action( 'admin_init', 					 'BW\Covid19\SettingsPage\settings' );
 
- 	add_action( 'admin_menu', 					 'SA\Covid19\SettingsPage\options' );
+ 	add_action( 'admin_menu', 					 'BW\Covid19\SettingsPage\options' );
 
-	add_action( 'wp_footer', 						 'SA\Covid19\BannerDisplay\banner' );
+	add_action( 'wp_footer', 						 'BW\Covid19\BannerDisplay\banner' );
 
-	add_action( 'wp_footer', 						 'SA\Covid19\BannerDisplay\banner_css' );
+	add_action( 'wp_footer', 						 'BW\Covid19\BannerDisplay\banner_css' );
 
 }
 
@@ -40,7 +40,7 @@ function notice(){
     if( get_transient( 'notice-transient' ) ){
         ?>
         <div class="updated notice is-dismissible">
-            <p>Thank you for showing the support South Africa needs! <strong>You are awesome</strong>!</p>
+            <p>Thank you for showing the support Botswana needs to fight COVID19! <strong>You are awesome</strong>!</p>
         </div>
         <?php
         /* Delete transient, only display this notice once. */

@@ -4,7 +4,7 @@
  *
  */
 
-namespace SA\Covid19\Script;
+namespace BW\Covid19\Script;
 
 function add_color_picker( $hook ) {
 

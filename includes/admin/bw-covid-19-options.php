@@ -1,6 +1,6 @@
 <?php
 /**
- * SA Corona Banner Call Backs file.
+ * BW Corona Banner Call Backs file.
  */
 
 /**
@@ -125,7 +125,7 @@ function banner_elements_fields(){
   <p class="description">
     <?php esc_html_e( 'By default the banner will display the text if no fields are selected below. select the fields you would like to display.' ); ?>
     </br>
-    Default text: <strong>For more information on COVID-19 and government regulation: Click Here</strong>
+    Default text: <strong>For more information on COVID-19 visit Coronassist: <a href="https://coronassist.co.bw" target="_blank">Click Here</a></strong>
   </p>
 
   <div class="row">
@@ -140,7 +140,7 @@ function banner_elements_fields(){
 
   <div class="row">
     <input id="banner_whatsapp" type="checkbox" name="banner_options[display][whatsapp]" value="on" data-val="on" <?php echo ( isset( $options['display']['whatsapp'] ) ? 'checked' : '' );?> >
-    <label for="banner_whatsapp">COVID-19 WhatsApp number</label>
+    <label for="banner_whatsapp">COVID-19 Help number</label>
   </div>
 
   <div class="row">

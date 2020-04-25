@@ -1,6 +1,6 @@
-=== SA Coronavirus Banner ===
-Contributors: robinrsa
-Tags: south-africa, covid-19
+=== BW Coronavirus Banner ===
+Contributors: rascyber
+Tags: botswana, covid-19
 Requires at least: 5.0
 Version: 2.0.3
 Tested up to: 5.4
@@ -9,27 +9,24 @@ Requires PHP: 5.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Make it easy for South African WordPress sites to add the COVID-19 banner as required by the South African government.
+Make it easy for Botswana WordPress sites to add the COVID-19 banner as to show support to government in
+its effort to flatten the curve.
 
 == Description ==
 
-All .za domain names are required by the South African Government to have a way to direct people to a legitimate source of information regarding COVID-19.
+All .bw domain names can add this plugin to have a way to direct people to a legitimate source of information regarding COVID-19 by
+the government portal.
 
-The relevant Government Gazette, number 43164, is available to be downloaded from the Government Printing Works (GPW) as a PDF.
-
-The requirement for websites to link to the government COVID-19 website is set out in paragraph 5.1.4.
-
-Should you require any changes or if you come across a bug please submit a query through https://github.com/robindevitt/sa-coronavirus-banner/issues.
 == Screenshots ==
 1. Plugin settings page.
 2. Banner position top, with all fields selected.
 3. Banner position top, with all fields selected, on a smaller screen.
 4. Banner position bottom, with text and telephone number selected.
 == Installation ==
-1. Search for 'SA Coronavirus Banner' in Plugins -> Add New and then click install and activate.
-1. or Upload the plugin files to the `/wp-content/plugins/sa-coronavirus-banner` directory, or install the plugin through the WordPress plugins screen directly.
+1. Search for 'BW Coronavirus Banner' in Plugins -> Add New and then click install and activate.
+1. or Upload the plugin files to the `/wp-content/plugins/bw-coronavirus-banner` directory, or install the plugin through the WordPress plugins screen directly.
 1. Activate the plugin through the 'Plugins' screen in WordPress
-1. Navigate to the SA COVID-19 in the sidebar menu to activate the location of the banner.
+1. Navigate to the BW COVID-19 in the sidebar menu to activate the location of the banner.
 
 == Changelog ==
 
