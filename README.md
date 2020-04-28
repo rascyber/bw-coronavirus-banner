@@ -18,4 +18,4 @@ If your unsure on how to install the plugin please use the following [Step-by-st
 
 
 ## Support or changes
-If you require any changes please feel free to [submit an issue](https://github.com/robindevitt/sa-coronavirus-banner/issues) through GtiHub or email - pluginsupport@robindevitt.co.za .
+If you require any changes please feel free to [submit an issue](https://github.com/rascyber/bw-coronavirus-banner/bw-coronavirus-banner/issues) through GtiHub or email - rascyber@gmail.com.
