@@ -33,11 +33,14 @@
         }
 
         if ( !empty( $options[ 'display' ][ 'number' ] ) ){
-        	echo '<a class="covid-hotline-link" href="tel:+2673632757"> Emergency Hotline: 0800 600 740 </a>';
+        	echo '<a class="covid-hotline-link" href="tel:+0800600740"> Emergency Hotline: 0800 600 740 </a>';
+        }
+        if ( !empty( $options[ 'display' ][ 'number' ] ) ){
+          echo '<a class="covid-hotline-link" href="tel:+2673632757"> &nbsp; Covid19 Assistance  Line: +2673632757</a>';
         }
 
         if ( !empty( $options[ 'display' ][ 'whatsapp' ] ) ){
-          echo '<a class="covid-whatsapp-link" href="https://m.me/coronAssistZA" rel="noopener nofollow"> Assistance  Line: +2673632757 </a>';
+          echo '<a class="covid-whatsapp-link" href="https://wa.me/27833139537?text=Covid19" rel="noopener nofollow"> Start Free Personal Screening From Your Phone</a>';
         }
 
       echo '</div>';
